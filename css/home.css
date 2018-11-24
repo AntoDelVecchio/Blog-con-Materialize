@@ -1,12 +1,107 @@
+body{
+  min-height: 40rem;
+	width: 100%;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url(../img/fondo.jpg);
+}
+
 .barra-superior{
-	min-height: 50rem !important;
+	min-height: 6rem;
+}
+
+.logo{
+	margin-left: 0.5rem;
+	width: 100px;
+	float: left;
+}
+
+.frase{
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
 }
 
 div[class*="columna"]{
-	min-height: 50rem !important;
-	border: 1px solid #eceff1;
+	padding: 0;
+	min-height: 50rem;
 }
 
 div[class*="bloque"]{
 	height: 25rem;
+}
+
+.columna-redes{
+	min-height: 50rem!important;
+	margin-top: 2rem;
+}
+
+.icons-redes{
+	margin-top: 2rem;
+	width: 40px;
+}
+
+.collection{
+	border: 0!important;
+}
+
+.collection-item{
+	border: 0!important;
+}
+
+.columna-fotos{
+	margin-top: 2rem;
+}
+
+.columna-fotos .row{
+	margin-left: auto;
+}
+
+.fotos{
+	width: 100%;
+}
+
+.columna-publicacion{
+	margin-top: 2rem;
+}
+
+.contenedor-texto{
+	float: right;
+}
+
+p{
+	text-align: justify;
+	word-spacing: 2px;
+}
+
+.responsive-video{
+	margin: 0.5rem !important;
+	float: left;
+	width: 30%;
+}
+
+.columna-autor{
+	margin-top: 2rem;
+}
+
+
+.columna-comentarios{
+	margin-left: 0.5rem !important;
+	margin-top: 1rem;
+	border-radius: 5px;
+	min-height: 20rem !important;
+}
+
+.contenedor-botones{
+	margin-right: 2rem;
+}
+
+@media(max-width: 600px) {
+	.responsive-video{
+		margin-left: 0.2rem !important;
+		width: 100%;
+	}
+
 }
