@@ -60,7 +60,6 @@ div[class*="bloque"]{
 }
 
 .columna-publicacion{
-	min-height: 20rem;
 	margin-top: 1rem;
 }
 
@@ -86,7 +85,8 @@ p{
 }
 
 .columna-autor{
-	min-height: 20rem;
+	float: right;
+	max-width: 20rem;
 	margin-top: 1rem;
 }
 
@@ -108,5 +108,4 @@ p{
 		margin-left: 0.2rem !important;
 		width: 100%;
 	}
-
 }
