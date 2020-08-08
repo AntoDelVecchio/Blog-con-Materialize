@@ -83,11 +83,16 @@ p{
 	width: 30%;
 }
 
-.columna-autor{
+.columna-autor-large{
 	float: right;
 	max-width: 20rem;
-	margin-top: 1rem;
+	margin-top: 0.9rem;
 }
+
+.columna-autor-small{
+	margin: 2rem 4rem;
+}
+
 
 .columna-comentarios{
 	margin-top: 1rem;
