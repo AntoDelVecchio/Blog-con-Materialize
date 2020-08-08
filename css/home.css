@@ -2,9 +2,8 @@ body{
   min-height: 40rem;
 	width: 100%;
 	background-attachment: scroll;
-	background-size: cover;
-	background-position: center center;
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-image: url(../img/fondo.jpg);
 }
 
